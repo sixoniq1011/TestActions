@@ -1,0 +1,7 @@
+steps\LoginSteps.class
+steps\TechnicianSteps.class
+runner\androidRunner\BaseTestRunnerAndroid.class
+runner\iOSRunners\AllTestRunneriOS.class
+runner\iOSRunners\BaseTestRunneriOS.class
+runner\androidRunner\AllTestRunnerAndroid.class
+steps\Hooks.class
