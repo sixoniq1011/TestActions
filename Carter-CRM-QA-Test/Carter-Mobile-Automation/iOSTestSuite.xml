@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite iOS" parallel="tests" thread-count="1">
+    <test name="iOS Tests">
+        <parameter name="DeviceName" value="iPhone 12 Pro Max" />
+        <parameter name="PlatformVersion" value="15.5" />
+        <parameter name="WdaLocalPort" value="20000" />
+        <parameter name="AppiumPort" value="8082" />
+        <classes>
+            <class name="runner.iOSRunners.AllTestRunneriOS" />
+        </classes>
+    </test>
+</suite> <!-- Suite -->

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite Android" parallel="tests" thread-count="1">
+    <test name="Android Tests">
+        <parameter name="DeviceUdid" value="emulator-5554" />
+        <parameter name="AppiumPort" value="20001" />
+        <parameter name="SystemPort" value="8080" />
+        <classes>
+            <class name="runner.androidRunner.AllTestRunnerAndroid" />
+        </classes>
+    </test>
+</suite> <!-- Suite -->
